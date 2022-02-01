@@ -1,0 +1,79 @@
+$fontOne: 'Comforter', cursive;
+$fontTwo: 'Caveat', cursive;
+$bgbody: rgba(240, 197, 116, 0.425);
+$bg:rgb(245, 213, 172);
+$bgelem: rgb(247, 231, 144);
+
+body {
+  background: $bgbody;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0px auto;
+  padding: 30px 25px 0px 25px;
+  box-sizing: content-box;
+  text-align: center;
+  background: $bg;
+  box-shadow: 15px 14px 27px 6px rgba(0, 0, 0, 0.31);
+  
+  
+  .newElem {
+    text-align: center;
+    box-sizing: content-box;
+    width: 100%;
+    border-radius: 80px 0px 80px 0px;
+    max-width: 250px;
+    margin: 10px;
+    background: $bgelem;
+    box-shadow: 5px 4px 8px 6px rgba(0, 0, 0, 0.14);
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    padding: 10px 20px 20px 20px;
+  }
+
+  #myList {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+    
+  }
+  
+}
+
+#input {
+  font-family: 'Caveat', cursive;
+  font-size: 30px;
+  outline: none;
+  border: none;
+  width: 400px;
+  box-shadow: 4px 11px 8px 0px rgba(34, 60, 80, 0.2);
+  border: 0.5px solid rgb(184, 175, 175);
+  border-radius: 80px 0px 80px 0px;
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+}
+
+.addBtn {
+  font-family: 'Caveat', cursive;
+  font-size: 22px;
+  padding: 14px;
+  box-shadow: 4px 11px 8px 0px rgba(34, 60, 80, 0.2);
+  border: 0.5px solid rgb(184, 175, 175);
+  background: rgba(255, 255, 255, 0.986);
+  border-radius: 80px 0px 80px 0px;
+
+
+}
+.close {
+  width: 20px;
+  height: 20px;
+  margin: 0px 0px 0px 10px;
+}
+
+
+
+
+
